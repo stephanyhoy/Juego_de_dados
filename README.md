@@ -46,15 +46,23 @@ Estas son las reglas del juego:
 
 Tienes que tener en cuenta los siguientes detalles de construcción:
 
-. POST /players: crea un jugador/a.
-. PUT /players/{id}: modifica el nombre del jugador/a.
-. GET /players: devuelve el listado de todos los jugadores/as del sistema con su porcentaje de éxitos.
-. POST /games/{id}: un jugador/a específico realiza una tirada.
-. DELETE /games/{id}: elimina las tiradas del jugador/a.
-. GET /games/{id}: devuelve el listado de jugadas por un jugador/a.
-. GET /ranking: devuelve un ranking de jugadores/as ordenado por porcentaje de éxitos y el porcentaje de éxitos medio del conjunto de todos los jugadores/as.
-. GET /ranking/loser: devuelve el jugador/a con peor porcentaje de éxito.
-. GET /ranking/winner: devuelve el jugador/a con mejor porcentaje de éxito.
+ . POST /players: crea un jugador/a.
+ 
+ . PUT /players/{id}: modifica el nombre del jugador/a.
+
+ . GET /players: devuelve el listado de todos los jugadores/as del sistema con su porcentaje de éxitos.
+
+ . POST /games/{id}: un jugador/a específico realiza una tirada.
+
+ . DELETE /games/{id}: elimina las tiradas del jugador/a.
+
+ . GET /games/{id}: devuelve el listado de jugadas por un jugador/a.
+
+ . GET /ranking: devuelve un ranking de jugadores/as ordenado por porcentaje de éxitos y el porcentaje de éxitos medio del conjunto de todos los jugadores/as.
+
+ . GET /ranking/loser: devuelve el jugador/a con peor porcentaje de éxito.
+
+ . GET /ranking/winner: devuelve el jugador/a con mejor porcentaje de éxito.
 
 # Nivel 1
 

@@ -1,0 +1,30 @@
+juego_de_dados/
+│
+├── src/
+│   ├── domain/
+│   │   ├── models/              # Definición de modelos de dominio
+│   │   └── repositories/        # Interfaces de repositorios
+│   │
+│   ├── application/
+│   │   ├── useCases/           # Casos de uso de la aplicación
+│   │   └── services/           # Servicios de aplicación
+│   │
+│   └── infrastructure/
+│       ├── controllers/        # Controladores HTTP
+│       ├── dataAccess/         # Implementaciones de repositorios
+│       ├── config/             # Configuración del servidor y bases de datos
+│       └── middleware/         # Middlewares HTTP (autenticación, etc.)
+│
+├── tests/                       # Pruebas unitarias e integración
+│
+├── db/                          # Configuración y scripts de base de datos
+│
+├── README.md                    # Documentación del proyecto
+├── jest.config.js               # Configuración de Jest
+├── tsconfig.json                # Configuración de TypeScript
+└── package.json                 # Archivo de configuración de npm
+│
+├── .env
+├── .gitignore
+├── Dockerfile
+├── docker-compose.yml
